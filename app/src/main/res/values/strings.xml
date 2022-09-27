@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Evaluacion N°1</string>
+    <string name="creditos">Cristopher Cáceres \n EV1 IoT\n343</string>
+
+    <string name="UserName">Nombre de Usuario</string>
+    <string name="Password">Contraseña</string>
+    <string name="IniciarSesion">Entrar</string>
+
+    <string name="PasarParametros">Pasar Parametros</string>
+    <string name="Spinner">Spinner</string>
+    <string name="Sensores">Sensores</string>
+
+    <string name="Ciudad">Ciudad</string>
+    <string name="Agregar">Agregar</string>
+
+    <string name="ListaSensores">Lista de Sensores</string>
+    <string name="Luz">Luz</string>
+    <string name="Acelerometro">Acelerometro</string>
+    <string name="Giroscopio">Giroscopio</string>
+
+    <string name="e_x">X:</string>
+    <string name="e_y">Y:</string>
+    <string name="e_z">Z:</string>
+</resources>

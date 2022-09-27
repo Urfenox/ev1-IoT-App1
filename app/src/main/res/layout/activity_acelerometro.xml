@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".AcelerometroActivity">
+
+    <TextView
+        android:textSize="30dp"
+        android:id="@+id/txt_AX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/e_x" />
+
+    <TextView
+        android:textSize="30dp"
+        android:id="@+id/txt_AY"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/e_y" />
+
+    <TextView
+        android:textSize="30dp"
+        android:id="@+id/txt_AZ"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/e_z" />
+
+</LinearLayout>

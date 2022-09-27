@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/btn_Parametros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="metParametros"
+        android:text="@string/PasarParametros" />
+
+    <Button
+        android:id="@+id/btn_Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="metSpinner"
+        android:text="@string/Spinner" />
+
+    <Button
+        android:id="@+id/btn_Sensores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="metSensores"
+        android:text="@string/Sensores" />
+
+</LinearLayout>
